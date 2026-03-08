@@ -1,0 +1,17 @@
+{
+	"geode": "5.3.0",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "bunchuq1122.songbrowser-on-Filter",
+	"name": "SongBrowser On Filter",
+	"version": "v1.0.0",
+	"developer": "Bunchuq1122",
+	"description": "add SongLibrary button on Filter",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"tags": [
+		"interface"
+	]
+}
