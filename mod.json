@@ -3,7 +3,7 @@
 	"gd": {
 		"win": "2.2081"
 	},
-	"id": "bunchuq1122.songbrowser-on-Filter",
+	"id": "bunchuq1122.songbrowser-on-filter",
 	"name": "SongBrowser On Filter",
 	"version": "v1.0.0",
 	"developer": "Bunchuq1122",
@@ -13,5 +13,9 @@
 	},
 	"tags": [
 		"interface"
-	]
+	],
+	"links": {
+		"community": "https://github.com/bunchuq1122/SongBrowser-On-Filter",
+		"source": "https://github.com/bunchuq1122/SongBrowser-On-Filter"
+	}
 }
