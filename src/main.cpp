@@ -7,19 +7,17 @@ using namespace geode::prelude;
 class $modify(uh, MoreSearchLayer) {
 	bool init() {
 		if (!MoreSearchLayer::init()) return false;
-		auto menu = CCMenu::create();
+		auto menu = m_buttonMenu;
 		auto btn = CCMenuItemSpriteExtra::create(
 			CCSprite::createWithSpriteFrameName("GJ_musicLibraryBtn_001.png"),
 			this,
 			menu_selector(uh::onHi)
 		);
-		menu->addChild(btn);
-		auto winSize = CCDirector::sharedDirector()->getWinSize();
-		menu->setPosition({
-			winSize.width / 2 + 140 , winSize.height / 2 - 90
+		btn->setPosition({
+			355.f, -222.f
 		});
-		menu->setTouchPriority(-600);
-		m_mainLayer->addChild(menu);
+		menu->addChild(btn);
+		
 		return true;;
 	}	
 	void onHi(CCObject* s) {
